@@ -19,9 +19,9 @@ This is a simple script with a simple purpose: change the name of assignment sub
 If you have successfully verified assumptions 1-4 listed above, you proceed as follows.
 (As for assumption 5, you'll know it is satisfied if all goes well.)
 
-1. Copy the file `rename.py` from this repository into the direcory with the contents of the zip file.
-(You can first clone the repository onto your computer, or you can simply [download only rename.py][raw]).
-2. In the terminal and the directory with the contents of the zip file, run
+1. Clone this repository onto your computer, or simply [download only rename.py from this link][raw].
+2. Copy the file `rename.py` into the directory with the contents of the zip file.
+3. In the terminal and the directory with the contents of the zip file, run
 ```
 python rename.py
 ```
@@ -33,3 +33,5 @@ That's all.
 
 I tested this on a Linux machine.
 The code is not using anything Linux-specific, so it **should** work on anything capable of running Python.
+
+[raw]: https://raw.githubusercontent.com/aghitza/gradescope-submissions-rename/master/rename.py
