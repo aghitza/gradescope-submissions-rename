@@ -32,6 +32,6 @@ At the end, all the pdf files in the directory should have names that look like 
 That's all.
 
 I tested this on a Linux machine.
-The code is not using anything Linux-specific, so it **should** work on anything capable of running Python.
+The code is not using anything Linux-specific though, so it **should** work on anything capable of running Python.
 
 [raw]: https://raw.githubusercontent.com/aghitza/gradescope-submissions-rename/master/rename.py
