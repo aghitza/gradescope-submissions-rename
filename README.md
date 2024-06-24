@@ -6,7 +6,7 @@ This is a simple script with a simple purpose: change the name of assignment sub
 
 ## Assumptions and prerequisites
 
-1. You have Python 3+ and [pyyaml][pyyaml] installed on your computer.
+1. You have Python 3+ and [pyyaml][pyyaml] installed on your computer. (On Arch Linux, pyyaml is provided by the package python-yaml.)
 2. You have access to a terminal emulator on your computer.
 3. You have a zip file containing a bulk download of assignment submissions from Gradescope.
 4. You have unzipped above-mentioned zip file and have opened a terminal window and are in the directory with the contents of the zip file.
