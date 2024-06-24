@@ -16,8 +16,12 @@ def process(metadata_filename):
         for old_name in data:
             record = data[old_name]
             sid = record[':submitters'][0][':sid']
-            new_name = sid + '.pdf'
-            print('renaming', old_name, 'to', new_name)
+            if len(sid) > 0:
+                new_name = sid + '.pdf'
+                print('renaming', old_name, 'to', new_name)
+            else:
+                new_name = 'original-' + old_name
+                print('no sid found; renaming', old_name, 'to', new_name)
             find_file_or_quit(old_name)
             os.rename(old_name, new_name)
 
